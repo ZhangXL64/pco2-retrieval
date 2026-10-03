@@ -1,0 +1,8 @@
+{
+  "products": ["landsat", "modis", "estarfm", "ustfm", "fsdaf", "stfdcnn", "stfgan", "swinstfm", "stfdiff"],
+  "dates": ["20231102", "20240309", "20241127"],
+  "bands": [443, 482, 561, 655],
+  "paths": {"data": "data", "models": "models", "outputs": "outputs"},
+  "training": {"random_seed": 0, "test_size": 0.30, "inner_splits": 4, "search_iterations": 20},
+  "sensitivity": {"noise_std": 0.15, "repeats": 20, "random_seed": 42}
+}
